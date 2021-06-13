@@ -53,3 +53,6 @@ This is a Jyupter Notebook used to test to make sure the data was properly loade
 
 For this project, I used the star schema to create 1 fact table (songplays) and 4 dimension tables (songs, users, time, artists).
 
+<img width="803" alt="Entity Relationship Diagram" src="https://user-images.githubusercontent.com/16965314/121825648-7c5bfb00-cc68-11eb-8705-e7b3b783d4cf.png">
+
+
