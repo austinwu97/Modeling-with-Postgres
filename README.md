@@ -11,11 +11,11 @@ In this project, you'll apply what you've learned on data modeling with Postgres
 ## Prerequites 
 
 In order to run this project, the following need to be installed locally
-*python3
-*psycopg2
-*pandas
-vos
-*glob
+- python3
+- psycopg2
+- pandas
+- os
+- glob
 
 Additionally a Postgres database needs to be available and running locally. This can be figured in etl.py
 
