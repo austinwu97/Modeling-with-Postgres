@@ -17,7 +17,7 @@ In order to run this project, the following need to be installed locally
 - os
 - glob
 
-Additionally a Postgres database needs to be available and running locally. This can be figured in etl.py
+Additionally a Postgres database needs to be available and running locally. This can be configured in etl.py
 
 ## How to run 
 
