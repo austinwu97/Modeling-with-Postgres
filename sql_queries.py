@@ -99,7 +99,7 @@ artist_id,
 year, 
 duration) 
 VALUES (%s, %s, %s, %s, %s)
-ON CONFLICT (song_id) DO NOTHING
+ON CONFLICT DO NOTHING
 """)
 
 artist_table_insert = ("""
@@ -110,7 +110,7 @@ location,
 latitute, 
 longitude) 
 VALUES (%s, %s, %s, %s, %s)
-ON CONFLICT (artist_id) DO NOTHING
+ON CONFLICT DO NOTHING
 """)
 
 time_table_insert = ("""
@@ -123,7 +123,7 @@ month,
 year,
 weekday) 
 VALUES (%s, %s, %s, %s, %s, %s, %s)
-ON CONFLICT (start_time) DO NOTHING
+ON CONFLICT DO NOTHING
 """)
 
 
